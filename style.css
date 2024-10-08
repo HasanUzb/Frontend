@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    box-sizing: border-box;
+}
+
+.top-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: black;
+}
+
+.top-header p {
+    margin: 10px;
+}
+
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 250px;
+    height: 420px;
+}
+.card img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10%;
+}
